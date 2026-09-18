@@ -213,7 +213,7 @@ class [[nodiscard]] scope_guard;
 
 //==================================================================================================
 
-/**
+/** Generalized scope guard template
  * @tparam ScopeExitFunc callable invoked when the guard is active at scope exit.
  * @tparam InvokeChecker callable that decides whether `ScopeExitFunc` is invoked.
  * @tparam ConstructionExceptionBehavior behavior when construction of the guard fails.
